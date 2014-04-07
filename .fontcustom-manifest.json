@@ -1,0 +1,91 @@
+{
+  "checksum": {
+    "previous": "26f62e3cb3161ec7e913489a8c6ca3bc4872f4db7c24ec56e1e737ea057fac78",
+    "current": "26f62e3cb3161ec7e913489a8c6ca3bc4872f4db7c24ec56e1e737ea057fac78"
+  },
+  "fonts": [
+    "fonts/Tietgen.ttf",
+    "fonts/Tietgen.svg",
+    "fonts/Tietgen.woff",
+    "fonts/Tietgen.eot"
+  ],
+  "glyphs": {
+    "apps": {
+      "codepoint": 61696,
+      "source": "svgs/apps.svg"
+    },
+    "bell": {
+      "codepoint": 61697,
+      "source": "svgs/bell.svg"
+    },
+    "cog": {
+      "codepoint": 61698,
+      "source": "svgs/cog.svg"
+    },
+    "email": {
+      "codepoint": 61699,
+      "source": "svgs/email.svg"
+    },
+    "filter": {
+      "codepoint": 61700,
+      "source": "svgs/filter.svg"
+    },
+    "gn": {
+      "codepoint": 61701,
+      "source": "svgs/gn.svg"
+    },
+    "location": {
+      "codepoint": 61702,
+      "source": "svgs/location.svg"
+    },
+    "owl": {
+      "codepoint": 61703,
+      "source": "svgs/owl.svg"
+    },
+    "ram": {
+      "codepoint": 61704,
+      "source": "svgs/ram.svg"
+    },
+    "search": {
+      "codepoint": 61705,
+      "source": "svgs/search.svg"
+    },
+    "tag": {
+      "codepoint": 61706,
+      "source": "svgs/tag.svg"
+    },
+    "time": {
+      "codepoint": 61707,
+      "source": "svgs/time.svg"
+    }
+  },
+  "options": {
+    "autowidth": true,
+    "config": "svgs/fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "Tietgen",
+    "force": false,
+    "input": {
+      "templates": "svgs/",
+      "vectors": "svgs/"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "stylesheets",
+      "fonts": "fonts",
+      "preview": "glyphs"
+    },
+    "preprocessor_path": "../fonts",
+    "quiet": false,
+    "skip_first": false,
+    "templates": [
+      "scss",
+      "preview"
+    ]
+  },
+  "templates": [
+    "stylesheets/_Tietgen.scss",
+    "glyphs/Tietgen-preview.html"
+  ]
+}
